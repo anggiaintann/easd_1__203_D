@@ -37,3 +37,4 @@ void display(int intan[], int n) {
     }
     cout << endl;
 }
+
