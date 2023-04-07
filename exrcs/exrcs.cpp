@@ -17,3 +17,13 @@ void input(int intan[], int n) {
         cin >> intan[i];
     }
 }
+
+
+void selectionSort(int intan[], int n) {
+    for (int AI = 0; AI < n - 1; AI++) {
+        int min_index = AI;
+        for (int i = AI + 1; i < n; i++) {
+            if (intan[i] < intan[min_index]) {
+                min_index = i;
+            }
+        }
