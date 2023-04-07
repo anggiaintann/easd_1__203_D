@@ -9,3 +9,11 @@
 using namespace std;
 
 const int MAX_DATA = 33; // 2 x 15 + 10 + 20
+
+
+void input(int intan[], int n) {
+    cout << "Enter " << n << " integers:" << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> intan[i];
+    }
+}
