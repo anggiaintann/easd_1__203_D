@@ -32,3 +32,4 @@ void selectionSort(int intan[], int n) {
 }
 void display(int intan[], int n) {
     cout << "Sorted array: ";
+    for (int i = 0; i < n; i++) {
